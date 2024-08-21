@@ -2,7 +2,7 @@
 fun main(args: Array<String>){
     var age: Int = 40
     println(age)
-    age=50
+    age=42
     println(age)
 }
 

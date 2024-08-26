@@ -1,4 +1,4 @@
-// Default Arguements
+// Default Arguments
 /*fun sum(a: Int =10,b:Int=20){
     val c=a+b
     println(c)
@@ -8,7 +8,7 @@ fun main(){
     sum()
 }*/
 
-// Without default Arguements
+// Without default Arguments
 fun sum(a:Int,b:Int){
     val c=a+b
     println(c)

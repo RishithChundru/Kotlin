@@ -1,6 +1,5 @@
 fun main(){
-    val letter:Char
-    letter='A'
+    val letter:Char ='A'
     println("$letter")
     println(letter)
     println('\n')

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 fun celToFah(temp:Int):Int{
     val f=((9/5)*temp)+32
     return f
@@ -7,8 +8,9 @@ fun fahToCel(temp:Int):Int{
     return c
 }
 fun main(){
-    val cel=40
-    val fah=100
+    val sc=Scanner(System.`in`)
+    val cel=sc.nextInt()
+    val fah=sc.nextInt()
     val result1=celToFah(cel)
     val result2=fahToCel(fah)
     println(result1)

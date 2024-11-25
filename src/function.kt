@@ -4,4 +4,4 @@ fun main(){
 }
 // println(message)
 
-// variables declared inside a function are only accessible within that functio.
+// variables declared inside a function are only accessible within that function.
